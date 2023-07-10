@@ -1,4 +1,5 @@
 .navbar
+    z-index: 1
     position: fixed
     width: 100%
     padding: 1rem
@@ -37,3 +38,12 @@
         border-radius: 2rem
         background: #4169E1
         color: #FFFFFF
+        transition: all 0.3s
+
+.contact:hover
+    h2
+        filter: brightness(0.9)
+
+.contact:active
+    h2
+        filter: brightness(0.8)

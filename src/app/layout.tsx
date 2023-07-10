@@ -1,6 +1,7 @@
 import "./globals.sass";
 import type { Metadata } from "next";
 
+
 export const metadata: Metadata = {
   title: "Bochen",
   description: "My portfolio",
