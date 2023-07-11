@@ -7,7 +7,7 @@ function Navbar() {
         <h1>Bochen</h1>
         <ul className={styles.anchors}>
           <li>
-            <a>
+            <a href="#about">
               <h2>About me</h2>
             </a>
           </li>
