@@ -2,7 +2,11 @@ import styles from "./topWave.module.sass";
 
 function TopWave1() {
   return (
-    <svg className={styles.wave} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg
+      className={styles.wave}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
       <path
         fill="#4169E1"
         fill-opacity="1"
@@ -11,6 +15,5 @@ function TopWave1() {
     </svg>
   );
 }
-
 
 export default TopWave1;

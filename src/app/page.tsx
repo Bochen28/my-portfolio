@@ -2,6 +2,7 @@ import Navbar from '@/components/navbar/Navbar'
 import styles from './page.module.sass'
 import Intro from '@/components/sections/intro/Intro'
 import About from '@/components/sections/about/About'
+import Skills from '@/components/sections/skills/Skills'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Intro />
       <About />
+      <Skills />
     </>
   )
 }

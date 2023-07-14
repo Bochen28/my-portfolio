@@ -1,4 +1,5 @@
-import TopWave from "@/components/svg/topWave1";
+import TopWave from "@/components/svg/TopWave1";
+import BottomWave from "@/components/svg/BottomWave2";
 import styles from "./about.module.sass";
 
 function About() {
@@ -21,6 +22,7 @@ function About() {
           </h2>
         </div>
         <TopWave />
+        <BottomWave />
       </section>
     </>
   );
