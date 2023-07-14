@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import Wave from "@/assets/wave-haikei.svg"
+import Wave from "../../svg/BottomWave1";
 import styles from "./intro.module.sass";
 
 const gitICon = <FontAwesomeIcon icon={faGithub} className={styles.icon} />;
@@ -9,7 +9,7 @@ function Intro() {
   return (
     <>
       <section className={styles.intro}>
-        <div className={styles.introText}>
+        <div className={styles.content}>
           <h1>
             Hi, I am <span>Patryk.</span>
             <br />
@@ -26,6 +26,7 @@ function Intro() {
             {gitICon}
           </a>
         </div>
+        <Wave />
       </section>
     </>
   );

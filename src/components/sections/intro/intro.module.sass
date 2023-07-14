@@ -1,12 +1,13 @@
 .intro
     display: flex
+    position: relative
     align-items: center
     height: 100vh
+
+.content
+    display: flex
     width: 80rem
     margin: auto
-
-.introText
-    display: flex
     gap: 2rem
     flex-wrap: wrap
 
@@ -23,9 +24,16 @@
     background: #4169E1
     border-radius: 2rem
     cursor: pointer
+    transition: all 0.3s
 
     h3
         color: #FFFFFF
+
+.resume:hover
+    filter: brightness(0.9)
+
+.resume:active
+    filter: brightness(0.8)
 
 .gitBtn
     display: flex
@@ -42,7 +50,6 @@
 
         path
             color: #4169E1
-
 
 .gitBtn:hover
     background: #4169E1
