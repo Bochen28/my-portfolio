@@ -1,5 +1,6 @@
 import TopWave from "@/components/svg/TopWave2";
-import BottomWave from  "@/components/svg/BottomWave3";
+import RightWave from "@/components/svg/RightWave";
+import LeftWave from "@/components/svg/LeftWave";
 import HardSkill from "@/components/hardSkillCard/HardSkill";
 import SoftSkill from "@/components/softSkillCard/SoftSkill";
 import styles from "./skills.module.sass";
@@ -9,11 +10,12 @@ function Skills() {
     <>
       <section id="skills" className={styles.skills}>
         <div className={styles.content}>
-            <HardSkill />
-            <SoftSkill />
+          <HardSkill />
+          <SoftSkill />
         </div>
         <TopWave />
-        <BottomWave />
+        <LeftWave />
+        <RightWave />
       </section>
     </>
   );
