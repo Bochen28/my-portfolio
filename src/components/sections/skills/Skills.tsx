@@ -14,8 +14,10 @@ function Skills() {
           <SoftSkill />
         </div>
         <TopWave />
-        <LeftWave />
-        <RightWave />
+        <div className={styles.sideWaves}>
+          <LeftWave />
+          <RightWave />
+        </div>
       </section>
     </>
   );
