@@ -1,4 +1,24 @@
 .card
+    position: relative
     padding: 10rem 5rem
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5)
     border-radius: .375rem
+    transition: all 1s
+
+    &:hover
+        transform: rotateY(180deg)
+
+        .front
+            transition: 0.5s
+            opacity: 0
+
+        .back
+            transition: 0.5s
+            transition-delay: 0.5s
+            opacity: 1
+
+.back
+    position: absolute
+    top: 50%
+    opacity: 0
+    transform: rotateY(180deg)
