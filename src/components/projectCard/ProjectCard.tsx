@@ -8,13 +8,16 @@ type ProjectProps = {
   name: string;
   gitLink: string;
   liveLink: string;
+  background: string;
 };
 
-function ProjectCard({ name, gitLink, liveLink }: ProjectProps) {
+function ProjectCard({ name, gitLink, liveLink, background }: ProjectProps) {
   return (
     <div className={styles.card}>
-      <div className={styles.front}>
-        <img src="/assets/1.png" alt="homeBudget" />
+      <div
+        className={styles.front}
+        style={{ backgroundImage: `url(/assets/${background})` }}
+      >
         <h2>{name}</h2>
       </div>
       <div className={styles.back}>
