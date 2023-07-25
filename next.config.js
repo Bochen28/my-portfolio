@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+// next.config.js
+const withImages = require("next-images");
 
-module.exports = nextConfig
+module.exports = withImages({
+  images: {
+    disableStaticImages: true,
+  },
+});

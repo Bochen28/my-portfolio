@@ -6,7 +6,11 @@ function Projects() {
     <section id="projects" className={styles.projects}>
       <div className={styles.content}>
         <h2 className={styles.heading}>My Projects:</h2>
-        <ProjectCard name="Sample Text" gitLink="" liveLink="" />
+        <ProjectCard
+          name=""
+          gitLink="https://github.com/Bochen28/Home-Budget"
+          liveLink=""
+        />
       </div>
     </section>
   );

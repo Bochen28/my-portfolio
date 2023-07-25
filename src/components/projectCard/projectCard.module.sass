@@ -25,6 +25,13 @@
     width: 100%
     justify-content: center
     align-items: center
+    overflow: hidden
+
+    img
+        z-index: -1
+        position: absolute
+        width: 100%
+
 
 .back
     position: absolute
@@ -44,10 +51,13 @@
 
     a
         padding: 0.5rem 1.5rem
-        border: .0625rem solid black
+        border: .0625rem solid #15484f
         border-radius: 2rem
 
 
     svg
         height: 2rem
         width: 2rem
+
+        path
+            fill: #15484f
