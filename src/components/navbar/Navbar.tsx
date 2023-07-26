@@ -6,17 +6,17 @@ function Navbar() {
       <div className={styles.contentBox}>
         <h1>Bochen</h1>
         <ul className={styles.anchors}>
-          <li>
+          <li className={styles.jumpBtn}>
             <a href="#about">
               <h2>About me</h2>
             </a>
           </li>
-          <li>
+          <li className={styles.jumpBtn}>
             <a href="#skills">
               <h2>Skills</h2>
             </a>
           </li>
-          <li>
+          <li className={styles.jumpBtn}>
             <a href="#projects">
               <h2>Projects</h2>
             </a>

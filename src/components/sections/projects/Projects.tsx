@@ -12,8 +12,18 @@ function Projects() {
           liveLink=""
           background="1.png"
         />
-        <ProjectCard name="" gitLink="https://github.com/Bochen28/Currency-calculator" liveLink="" background="2.png" />
-        <ProjectCard name="" gitLink="https://github.com/Bochen28/React-Page-Example" liveLink="" background="3.png" />
+        <ProjectCard
+          name=""
+          gitLink="https://github.com/Bochen28/Currency-calculator"
+          liveLink=""
+          background="2.png"
+        />
+        <ProjectCard
+          name=""
+          gitLink="https://github.com/Bochen28/React-Page-Example"
+          liveLink=""
+          background="3.png"
+        />
       </div>
     </section>
   );
