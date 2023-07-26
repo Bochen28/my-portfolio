@@ -22,10 +22,10 @@ function ProjectCard({ name, gitLink, liveLink, background }: ProjectProps) {
       </div>
       <div className={styles.back}>
         <h2>sample</h2>
-        <a href={gitLink} target="_blank">
+        <a className={styles.projectBtn} href={gitLink} target="_blank">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href={liveLink} target="_blank">
+        <a className={styles.projectBtn} href={liveLink} target="_blank">
           <FontAwesomeIcon icon={faSatelliteDish} />
         </a>
       </div>
