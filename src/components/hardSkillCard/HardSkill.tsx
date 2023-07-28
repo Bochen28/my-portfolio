@@ -17,10 +17,10 @@ function HardSkill() {
         <ul className={styles.skillsList}>
           <li>Html</li>
           <li>Css</li>
-          <li>Sass</li>
           <li>Js</li>
           <li>TypeScript</li>
           <li>React</li>
+          <li>Sass</li>
           <li>BootStrap</li>
         </ul>
         <div

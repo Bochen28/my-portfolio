@@ -5,7 +5,7 @@ function SoftSkill() {
     <div className={styles.content}>
       <h2>Soft Skills</h2>
       <div className={styles.card}>
-        <ul>
+        <ul className={styles.skillsList}>
           <li>Creativity</li>
           <li>Critical Thinking</li>
           <li>Teamwork</li>
