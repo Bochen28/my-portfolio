@@ -14,6 +14,8 @@ function HardSkill() {
     <div className={styles.content}>
       <h2>Hard Skills</h2>
       <div className={styles.card} onClick={toggleDropdown}>
+        <h2 className={styles.notification}>Click me</h2>
+        <span className={styles.arrow}>&#8595;</span>
         <ul className={styles.skillsList}>
           <li>Html</li>
           <li>Css</li>
