@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.contentBox}>
-        <h1>Bochen</h1>
+        <a href="#intro"><h1>Bochen</h1></a>
         <ul className={styles.anchors}>
           <li className={styles.jumpBtn}>
             <a href="#about">
@@ -22,7 +22,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className={styles.contact}>
+            <a className={styles.contact} href="#contact">
               <h2>Contact</h2>
             </a>
           </li>

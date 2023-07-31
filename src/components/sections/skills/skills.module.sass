@@ -2,11 +2,10 @@
     position: relative
     display: flex
     flex-wrap: wrap
-    gap: 0
     align-items: center
     width: 100vw
     min-height: 100vh
-    overflow: visible
+    overflow-x: clip
 
 .content
     display: flex
@@ -15,7 +14,7 @@
     justify-content: space-around
     width: 70%
     margin: auto
-    gap: 2rem
+    gap: 10rem
     flex-wrap: wrap
 
 .sideWaves
@@ -27,11 +26,13 @@
     pointer-events: none
 
 .sectionBreak
-    position: absolute
     display: flex
     justify-content: center
-    width: 100%
-    bottom: 8%
+    margin: auto
+    padding: 0 0 3rem
+    width: 80%
+    bottom: 10%
+    text-align: center
     font-size: 3rem
 
 .arrow
@@ -39,5 +40,10 @@
     display: flex
     justify-content: center
     width: 100%
-    bottom: 3%
+    bottom: 0
     font-size: 3rem
+
+@media (min-width: 80rem)
+
+    .content
+        gap: 2rem

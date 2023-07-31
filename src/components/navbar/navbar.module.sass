@@ -8,10 +8,13 @@
 
 .contentBox
     display: flex
-    justify-content: space-between
+    justify-content: center
     align-items: center
     width: 70%
     margin: auto
+
+    a
+        text-decoration: none
 
     h1
         font-size: 1.5rem
@@ -19,7 +22,7 @@
         color: #15484f
 
 .anchors
-    display: flex
+    display: none
     position: relative
     justify-content: space-around
     align-items: center
@@ -66,3 +69,11 @@
 
 .contact:active
     filter: brightness(0.8)
+
+@media (min-width: 80rem)
+
+    .contentBox
+        justify-content: space-between
+
+    .anchors
+        display: flex

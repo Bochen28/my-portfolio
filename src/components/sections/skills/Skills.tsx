@@ -19,7 +19,7 @@ function Skills() {
           <RightWave />
         </div>
         <h2 className={styles.sectionBreak}>
-          Let's see what this skills can make
+          Let's see what these skills can make
         </h2>
         <h2 className={styles.arrow}>&#8595;</h2>
       </section>

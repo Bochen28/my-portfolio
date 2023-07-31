@@ -8,7 +8,7 @@ const gitICon = <FontAwesomeIcon icon={faGithub} className={styles.icon} />;
 function Intro() {
   return (
     <>
-      <section className={styles.intro}>
+      <section id="intro" className={styles.intro}>
         <div className={styles.content}>
           <h1>
             Hi, I am <span>Patryk.</span>
