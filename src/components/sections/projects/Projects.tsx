@@ -5,7 +5,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.projects}>
       <div className={styles.content}>
-        <h2 className={styles.heading}>My Projects:</h2>
+        <h2 className={styles.heading}>My Projects (click them):</h2>
         <ProjectCard
           name=""
           gitLink="https://github.com/Bochen28/Home-Budget"
