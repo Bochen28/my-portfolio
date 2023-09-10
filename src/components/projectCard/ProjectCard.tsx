@@ -7,13 +7,13 @@ import styles from "./projectCard.module.sass";
 import { useState } from "react";
 
 type ProjectProps = {
-  name: string;
+  text: string;
   gitLink: string;
   liveLink: string;
   background: string;
 };
 
-function ProjectCard({ name, gitLink, liveLink, background }: ProjectProps) {
+function ProjectCard({ text, gitLink, liveLink, background }: ProjectProps) {
   const [isReversed, setReversed] = useState(true);
   const toggleReverse = () => {
     setReversed(!isReversed);
@@ -32,7 +32,6 @@ function ProjectCard({ name, gitLink, liveLink, background }: ProjectProps) {
           opacity: isReversed ? "1" : "0",
         }}
       >
-        <h2>{name}</h2>
       </div>
       <div
         className={styles.back}
@@ -40,7 +39,7 @@ function ProjectCard({ name, gitLink, liveLink, background }: ProjectProps) {
           opacity: isReversed ? "0" : "1",
         }}
       >
-        <h2>sample</h2>
+        <h2>{text}</h2>
         <a className={styles.projectBtn} href={gitLink} target="_blank">
           <FontAwesomeIcon icon={faGithub} />
         </a>
