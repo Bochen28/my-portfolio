@@ -20,7 +20,10 @@
         color: #15484f
 
 .resume
-    padding: 1rem
+    display: flex
+    justify-content: center
+    flex-basis: 100%
+    padding: 0.75rem
     background: #15484f
     border-radius: 2rem
     cursor: pointer
@@ -37,16 +40,18 @@
 
 .btn
     display: flex
-    padding: 0 2rem
+    flex-basis: 100%
+    padding: 0.75rem
     border: solid .125rem #15484f
     border-radius: 2rem
+    justify-content: center
     align-items: center
     cursor: pointer
     transition: all 0.3s
 
     svg
-        width: 2rem
-        height: 2rem
+        width: 1.5rem
+        height: 1.5rem
 
         path
             color: #15484f
@@ -57,3 +62,11 @@
     svg
         path
             color: white
+
+@media (min-width: 80rem)
+
+    .resume
+        flex-basis: 10%
+
+    .btn
+        flex-basis: 10%
