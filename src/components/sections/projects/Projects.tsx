@@ -9,13 +9,13 @@ function Projects() {
         <ProjectCard
           text="A simple web app that helps you control your daily expenses"
           gitLink="https://github.com/Bochen28/Home-Budget"
-          liveLink=""
+          liveLink="https://budget.bochen.pro/"
           background="1.png"
         />
         <ProjectCard
           text="Currency calculator that gets live data from NBP API"
           gitLink="https://github.com/Bochen28/Currency-calculator"
-          liveLink=""
+          liveLink="https://calculator.bochen.pro/"
           background="2.png"
         />
         <ProjectCard
