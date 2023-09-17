@@ -18,12 +18,6 @@ function Projects() {
           liveLink="https://calculator.bochen.pro/"
           background="2.png"
         />
-        <ProjectCard
-          text="Exemplary website"
-          gitLink="https://github.com/Bochen28/React-Page-Example"
-          liveLink=""
-          background="3.png"
-        />
       </div>
     </section>
   );

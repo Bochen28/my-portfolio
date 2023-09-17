@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import resume from "@/../public/assets/resume.pdf"
 import Typed from "typed.js";
 import Wave from "../../svg/BottomWave1";
 import styles from "./intro.module.sass";
@@ -29,7 +30,7 @@ function Intro() {
             <br />
             <span id="heroText"></span>
           </h1>
-          <a className={styles.resume}>
+          <a className={styles.resume} href={resume} download>
             <h3>My Resume</h3>
           </a>
           <a
