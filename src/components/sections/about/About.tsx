@@ -10,7 +10,7 @@ function About() {
           <h1>Time for some bragging.</h1>
           <h2>
             I'm a <span>passionate and dedicated</span> junior frontend
-            developer with a<span> strong enthusiasm</span> for creating
+            developer with a <span>strong enthusiasm</span> for creating
             engaging and user-friendly web experiences.{" "}
             <span>Adaptability</span> is one of my strengths. I embrace new
             technologies and trends in the ever-evolving world of frontend
