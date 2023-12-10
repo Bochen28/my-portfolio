@@ -13,10 +13,16 @@ function Projects() {
           background="1.png"
         />
         <ProjectCard
-          text="Currency calculator that gets live data from NBP API"
+          text="Currency calculator that gets live data from an API"
           gitLink="https://github.com/Bochen28/Currency-calculator"
           liveLink="https://calculator.bochen.pro/"
           background="2.png"
+        />
+        <ProjectCard
+          text="Website that helps you store and organize your links"
+          gitLink="https://github.com/Bochen28/my-link/"
+          liveLink="https://my-link.bochen.pro/"
+          background="3.png"
         />
       </div>
     </section>
